@@ -1,0 +1,126 @@
+/* @import "./HelveticaNeue.ttc"; */
+.Land{
+  
+    height: 1080px;
+    width: 1920px;
+    position: absolute;
+    background-color: #ffffff;
+
+}
+body{
+  overflow-x:hidden; 
+ overflow-y:auto;
+ background-color: white;
+}
+.logo{
+  position: absolute;
+width: 112px;
+height: 18px;
+left: calc(50% - 112px/2);
+top: 79px;
+
+
+}
+
+.guy{
+  position: absolute;
+    width: 781px;
+    height: 482px;
+    left: 589px;
+    top: 182px;
+    display: flex;
+}
+.Lbutton{
+  display:flex;
+  flex-direction: column;
+  
+  position: absolute;
+  gap: 26px;
+  
+}
+
+
+.button{
+  cursor: pointer;
+  border-radius: 8px;
+  
+  justify-content: space-evenly;
+  
+background: #62A1EB;
+color: white;
+font-family: 'Helvetica Neue';
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+text-align: center;
+border: none;
+display:flex;
+flex-direction: column;
+left:766px;
+height: 60px;
+width: 387px;
+top:787px
+
+}
+#b1b{
+  
+  
+  top: 0px;
+  position: absolute;
+}
+#b2b{
+  position: absolute;
+
+top: 86px;
+}
+
+.Tinfo{
+text-decoration: none;
+
+position: absolute;
+width: 223px;
+height: 24px;
+left: 677px;
+top: 91px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+
+/* შავი/700 */
+color: #232323;
+
+
+
+
+
+}
+.Linfo{
+  /* ლეპტოპის მახასიათებლები */
+
+position: absolute;
+width: 289px;
+height: 24px;
+right: 671px;
+top: 91px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+/* შავი/700 */
+color: #232323;
+
+}
+
+
+
+
+
