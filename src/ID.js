@@ -26,8 +26,8 @@ const ID = () => {
      <br></br><br></br><br></br>
      <Email2 EmailInputValue="num" name="ტელეფონის ნომერი" lower="უნდა აკმაყოფილებდეს ქართული მობ-ნომრის ფორმატს" pname="+995 598 00 07 01"></Email2>
      </div>
-     <div id="idbutton1"><Button1 name="შემდეგი"></Button1></div>
-    <Link to="/Laptop"></Link>
+     <div id="idbutton1"><Link to="/Laptop"><Button1 name="შემდეგი"></Button1></Link></div>
+    
 
      </div></form>
      
